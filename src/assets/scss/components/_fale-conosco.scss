@@ -1,0 +1,123 @@
+.fale-conosco {
+  background-image: url(../img/contato-background.png);
+  background-position: top;
+  background-size: cover;
+  padding: 10rem 0;
+  background-repeat: no-repeat;
+  
+  .fale-conosco__inner {
+    .fale-conosco__title {
+      text-align: center;
+      color: $white;
+      margin-bottom: 2rem;
+      
+      h2 {
+        font-family: $font-primary;
+        font-weight: bold;
+        font-size: $title-2;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-family: $font-secondary;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    }
+    
+    .fale-conosco__form {
+      .fale-conosco_form-inputs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 800px;
+        
+        .fale-conosco__form-input::placeholder {
+          color: $white;
+          font-weight: bold;
+        }
+        .fale-conosco__form-input {
+          background: transparent;
+          border: none;
+          padding: 1rem .2px;
+          max-width: 400px;
+          margin: 10px;
+          width: 100%;
+          border-bottom: 2px solid $primary-light;
+          color: $white;
+          font-weight: bold;
+          font-family: $font-primary;
+          font-size: 16px;
+        }
+      }
+      .fale-conosco__form-send {
+        display: flex;
+        justify-content: center;
+        padding: 5rem 0  7rem 0;
+      }
+    }
+  }
+}
+
+.button {
+  text-decoration: none;
+  padding: 1rem;
+  min-width: 280px;
+  background: #ccc;
+  border: none;
+  font-family: $font-tertiary;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+.button-info {
+  background: $info;
+  color: $white;
+}
+
+
+@media only screen and (min-width: $mobile-up) {
+  .fale-conosco {
+    padding: 14rem 0;
+    .fale-conosco__inner {
+      .fale-conosco__form {
+        .fale-conosco__form-send {
+          
+          padding: 5rem 0  13rem 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop-up) {
+  .fale-conosco {
+    padding: 18rem 0;
+    
+    .fale-conosco__inner {
+      .fale-conosco__title {
+        
+        h2 {
+        }
+        p {
+        }
+      }
+      
+      .fale-conosco__form {
+        .fale-conosco_form-inputs {
+          justify-content: space-between;
+          
+          .fale-conosco__form-input {
+            max-width: 350px;
+          }
+        }
+        .fale-conosco__form-send {
+          
+        }
+      }
+    }
+  }
+}

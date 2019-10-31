@@ -1,0 +1,80 @@
+.nossos-clientes {
+  transform: skew(0deg, -6deg);
+  padding: 6rem 0;
+  background: #f2f1f3;
+  
+  .nossos-clientes__inner {
+    transform: skew(0deg, 6deg);
+    
+    .nossos-clientes__title {
+      text-align: center;
+      margin-bottom: 3rem;
+      
+      h2 {
+        font-weight: bold;
+        font-size: $title-2;
+        font-family: $font-primary;
+        color: $primary-dark;
+        text-transform: uppercase
+      }
+    }
+    
+    .nossos-clientes__slide  {
+      max-width: 100%;
+      margin: 0 auto;  
+    }
+  }
+}
+
+.slide {
+  position: relative;
+  
+  .slide__arrows {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .slide__arrow {
+      background-repeat: no-repeat;
+      height: 30px;
+      width: 30px;
+      background-size: contain;
+      cursor: pointer;
+    }
+    
+    .arrow-left {
+      background-image: url(../img/arrow-back.png);  
+      
+    }
+    .arrow-right {
+      background-image: url(../img/arrow-next.png);  
+      
+    }
+  }
+  
+  .slide__items {
+    width: 90%;
+    margin: 0 auto;
+    
+    .slide__item {
+      padding: .5rem;
+      height: 120px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;      
+    }
+  }
+}
+
+@media only screen and(min-width: $mobile-up) {
+  .nossos-clientes {
+    padding: 8rem 0;
+  }
+}

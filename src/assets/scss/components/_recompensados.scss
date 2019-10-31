@@ -1,0 +1,170 @@
+.recompensados {
+  padding: 2rem 0;
+  text-align: center;
+  
+  .recompensados__inner {
+    .recompensas__title {
+      margin-bottom: 1rem;
+      
+      h2 {
+        color: $primary;
+        font-size: $title-4;
+        text-transform: uppercase;
+        
+        .title-1 {
+          font-family: $font-primary;
+          font-weight: bold;
+          display: block;
+          background: -webkit-linear-gradient($primary, $primary-dark);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;          
+        }
+        .title-2 {
+          font-family: $font-secondary;
+          display: block;
+        }
+      }
+    }
+    
+    .recompensas__title-text {
+      font-family: $font-tertiary;
+      color: $grey;
+    }
+    
+    .recompensa__items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem 0;
+      
+      .recompensas__item {
+        margin: 1rem;
+        
+        .recompensas__item-icon {
+          margin-bottom: 1rem;
+        }
+        
+        .recompensas__item-title {
+          .number {
+            display: block;
+            color: $primary;
+            font-size: $title-1;
+            font-family: $font-primary;
+            font-weight: bold;
+            line-height: 40px;
+          }
+          .text {
+            font-size: $title-5;
+            font-family: $font-primary;
+            font-weight: bold;
+            color: $grey;
+          }
+        }
+        .recompensas__item-text {
+          font-size: $title-5;
+          font-family: $font-tertiary;
+          color: $grey;
+          
+          p {
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .recompensados:before {
+    content: '';
+    width: 21%;
+    height: 500px;
+    position: absolute;
+    top: -90px;
+    left: -50px;
+    background-image: url(../img/forma-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .recompensados {
+    position: relative;
+    
+    .recompensados__inner {
+      .recompensas__title {
+        h2 {
+          font-size: $title-2;
+        }
+      }
+      
+      .recompensas__title-text {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .recompensa__items:before {
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 100%;
+        right: 100%;
+        background-image: url(../img/homem-com-celular-minutrade.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+      
+      .recompensa__items:after {
+        position: absolute;
+        content: '';
+        width: 520px;
+        height: 470px;
+        background-image: url(../img/forma-1-maior.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 84%;
+        top: -160px;
+      }
+      
+      .recompensa__items {
+        position: relative;
+        width: 60%;
+        margin-left: auto;
+        flex-direction: row;
+        padding: 2rem 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop-up) {
+  .recompensados::before {
+    content: '';
+    
+  }
+  
+  .recompensados {
+    position: relative;
+    
+    .recompensados__inner {      
+      .recompensa__items:before {
+        position: absolute;
+        content: '';
+        width: 380px;
+        height: 460px;
+        right: 77%;
+        background-image: url(../img/homem-com-celular-minutrade.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+      
+      .recompensa__items {
+        position: relative;
+        width: 60%;
+        margin-left: auto;
+        flex-direction: row;
+        padding: 2rem 0;
+      }
+    }
+  }
+}

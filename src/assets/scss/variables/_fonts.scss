@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothamRounded-Bold.otf);
+  src: url(../fonts/GothamRounded-Medium.otf);
+}
+
+$font-primary: Gotham, Helvetica, "Open Sans", sans-serif;
+$font-secondary: Helvetica, Gotham, "Open Sans", sans-serif;
+$font-tertiary: "Open Sans", Helvetica, Gotham, sans-serif;

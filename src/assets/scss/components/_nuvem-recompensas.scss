@@ -1,0 +1,88 @@
+.nuvem-recompensas {
+  margin-top: 0;
+  z-index: 0;
+  position: relative;
+  transform: skew(0deg, -6deg);
+  background-image: url(../img/nuvem-de-recompensas-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  
+  .nuvem-recompensas__inner {
+    transform: skew(0deg, 6deg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 4rem 0;
+    
+    .nuvem-recompensas__title {
+      text-align: center;
+      
+      h2 {
+        font-size: $title-2;
+        font-family: $font-primary;
+        color: $white;
+        font-weight: bold;
+        margin-bottom: 1rem;  
+        text-transform: uppercase;
+      }
+      p {
+        font-family: $font-secondary;
+        color: $white;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    }
+    .nuvem-recompensas__main {
+      padding: 2rem 0;
+      text-align: center;
+      
+      img {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+    }
+    .nuvem-recompensas__bottom:hover {
+
+      .nuvem-recompensas__bottom-icon {
+        transform: translateY(-10px);
+        transition: transform .5s;
+      }
+    }
+    .nuvem-recompensas__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
+      margin: 0 auto;
+      
+      .nuvem-recompensas__bottom-icon {
+        transform: translateY(0px);
+        transition: transform .5s;
+        margin-right: 1rem;  
+      }
+      
+      .nuvem-recompensas__bottom-text {
+        font-family: $font-secondary;
+        color: $white;
+        line-height: 30px;
+        font-size: $content-normal;  
+      }
+    }
+  } 
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .nuvem-recompensas {
+    padding: 2rem 0;
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (min-width: $desktop-up) {
+  .nuvem-recompensas {
+    padding: 2rem 0;
+    margin-top: 7rem;
+  }
+}

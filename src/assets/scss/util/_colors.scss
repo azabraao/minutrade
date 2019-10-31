@@ -1,0 +1,33 @@
+$colors: (
+    primary:$primary,
+    primary-light: $primary-light,
+    primary-lighter: $primary-lighter,
+    primary-dark: $primary-dark,
+    primary-darker: $primary-darker,
+    secondary: $secondary,
+    secondary-light: $secondary-light,
+    secondary-lighter: $secondary-lighter,
+    secondary-dark: $secondary-dark,
+    secondary-darker: $secondary-darker,
+    dark: $dark,
+    light: $light,
+    black: $black,
+    white: $white,
+    grey: $grey,
+    grey-light: $grey-light,
+    grey-lighter: $grey-lighter,
+    grey-dark: $grey-dark,
+    grey-darker: $grey-darker
+);
+
+@each $item in $colors {
+    .bg-#{nth($item,1)} {
+        background-color: nth($item,2);        
+    }
+}
+
+@each $item in $colors {
+    .color-#{nth($item,1)} {
+        color: nth($item,2);
+    }
+}
