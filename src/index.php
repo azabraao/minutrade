@@ -359,7 +359,7 @@
                     </p>
                 </div>
                 
-                <form class="fale-conosco__form">
+                <form class="fale-conosco__form jsFormContact">
                     <div class="fale-conosco_form-inputs">
                         <input name="nome" type="text" placeholder="Nome" class="fale-conosco__form-input">
                         <input name="empresa" type="text" placeholder="Empresa" class="fale-conosco__form-input">
@@ -373,7 +373,7 @@
                         </select>
                     </div>
                     <div class="fale-conosco__form-send">
-                        <button type="submit" class="button button-info">
+                        <button class="button button-info jsButtonFormContact">
                             Enviar
                         </button>
                     </div>
@@ -399,8 +399,8 @@
                 <div class="newsletter__input-wrap-icon">
                     <i class="icon icon-email"></i>
                 </div>
-                <input class="newsletter__input-wrap-input" type="email" placeholder="exemplo@mail.com">
-                <button class="newsletter__input-wrap-button">
+                <input class="newsletter__input-wrap-input jsEmailNewsletter" type="email" placeholder="exemplo@mail.com">
+                <button class="newsletter__input-wrap-button jsSendNewsletter">
                     Enviar
                 </button>
             </div>

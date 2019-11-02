@@ -55,6 +55,20 @@
         display: flex;
         justify-content: center;
         padding: 5rem 0  7rem 0;
+        
+        .button {
+          width: 280px;
+          height: 53px;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          
+          img {
+            width: 30px;
+          }
+        }
       }
     }
   }
