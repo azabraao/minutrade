@@ -216,15 +216,43 @@
                     </div>
                     <div class="nuvem-recompensas__bottom-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit, sed do eiusmod tempor 
+                            Lorem ipsum dolor sit amet, consectetur
                         </p>
                     </div>
                 </div>
             </div>            
         </div>
     </section>
-    
+     
+    <section class="xewards">
+        <div class="xewards__inner">
+            <div class="container">
+                <div class="xewards__logo">
+                    <img src="assets/img/fixture/logotipo-xewards.png" alt="Logotipo Xewards">
+                </div>
+                <div class="xewards__content">
+                    <h2>
+                        Quer saber mais sobre as soluções que podemos 
+                        oferecer para o seu negócio?
+                    </h2>
+                    <p>                        
+                        Conheça a Xewards, nossa plataforma proprietária 
+                        diretamente conectada à Nuvem de Recompensas. 
+                    </p>
+                    <p>
+                        Crie e gerencie campanhas de engajamento 
+                        por meio de recompensas digitais 
+                    </p> 
+                </div>
+                <div class="xewards__cta">
+                    <a href="https://xewards.com.br" target="_blank" class="button button-success">
+                        Conheça a Xewards
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="nossos-clientes">
         <div class="nossos-clientes__inner">
             <div class="container">
@@ -239,33 +267,24 @@
                         <div class="slide__arrow arrow-right jsNextArrow"></div>
                     </div>
                     <div class="slide__items jsSlide">
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-caixa.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-gpa.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-torra.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-banco-do-brasil.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-marisa.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-pernambucanas.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-itau.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-danone.jpg">
-                        </div>
-                        <div class="slide__item">
-                            <img src="assets/img/fixture/logo-banco-do-brasil.jpg">
-                        </div>
+                        <img alt="Caixa Econômica Federal" title="Caixa Econômica Federal" src="assets/img/caixa-img.png" class="image-marca">
+                        <img alt="GPA" title="GPA" src="assets/img/gpa-img.png" class="image-marca">
+                        <img alt="Torra" title="Torra" src="assets/img/torra-img.png" class="image-marca">
+                        <img alt="Banco do Brasil" title="Banco do Brasil" src="assets/img/bc-brasil-img.png" class="image-marca">
+                        <img alt="Marisa" title="Marisa" src="assets/img/marisa-img.png" class="image-marca">
+                        <img alt="Pernambucanas" title="Pernambucanas" src="assets/img/pernambucanas-img.png" class="image-marca">
+                        <img alt="Banco Itaú" title="Banco Itaú" src="assets/img/itau-img.png" class="image-marca">
+                        <img alt="Grupo Danone" title="Grupo Danone" src="assets/img/danone-img.png" class="image-marca">
+                        <img alt="Pague Menos" title="Pague Menos" src="assets/img/pg-menos-img.png" class="image-marca">
+                        <img alt="Banrisul" title="Banrisul" src="assets/img/banrisul-img.png" class="image-marca">
+                        <img alt="Multiplus" title="Multiplus" src="assets/img/multiplus-img.png" class="image-marca">
+                        <img alt="Banco Santander" title="Banco Santander" src="assets/img/santander-img.png" class="image-marca">
+                        <img alt="Extra" title="Extra" src="assets/img/extra-img.png" class="image-marca">
+                        <img alt="Mondelez" title="Mondelez" src="assets/img/mondelez-img.png" class="image-marca">
+                        <img alt="Banco Bradesco" title="Banco Bradesco" src="assets/img/bradesco-img.png" class="image-marca">
+                        <img alt="Livelo" title="Livelo" src="assets/img/livelo-img.png" class="image-marca">
+                        <img alt="Banco Pan" title="Banco Pan" src="assets/img/bc-pan-img.png" class="image-marca">
+                        <img alt="AgiBank" title="AgiBank" src="assets/img/agibank-img.png" class="image-marca">
                     </div>
                 </div>
             </div>
@@ -277,7 +296,7 @@
             <div class="container">
                 <div class="socios-fundadores__title">
                     <h2>
-                        Sócios fundadores
+                        < Sócios fundadores >
                     </h2>
                     <p>
                         A Minutrade surgiu da necessidade de criar recompensas 
@@ -291,11 +310,7 @@
                     </p>
                 </div>
                 <div class="socios-fundadores__list">
-                    <div class="socios-slide__arrows">
-                        <div class="socios-slide__arrow arrow-left jsSociosSlideArrowLeft"><</div>
-                        <div class="socios-slide__arrow arrow-right jsSociosSlideArrowRight">></div>
-                    </div>
-                    <div class="socios-fundadores__list-items jsSociosSlide">
+                    <div class="socios-fundadores__list-items">
                         <div class="socios-fundadores__item">
                             <div class="socios-fundadores__photo">
                                 <img src="assets/img/ceo-eduardo-jacob.png">
@@ -373,7 +388,7 @@
                         </select>
                     </div>
                     <div class="fale-conosco__form-send">
-                        <button class="button button-info jsButtonFormContact">
+                        <button class="button button-success jsButtonFormContact">
                             Enviar
                         </button>
                     </div>
@@ -399,8 +414,8 @@
                 <div class="newsletter__input-wrap-icon">
                     <i class="icon icon-email"></i>
                 </div>
-                <input class="newsletter__input-wrap-input jsEmailNewsletter" type="email" placeholder="exemplo@mail.com">
-                <button class="newsletter__input-wrap-button jsSendNewsletter">
+                <input class="newsletter__input-wrap-input" type="email" placeholder="exemplo@mail.com">
+                <button class="newsletter__input-wrap-button">
                     Enviar
                 </button>
             </div>
@@ -420,47 +435,56 @@
                         </p>
                         <p>
                             <div class="icons">
-                                <a href="">
+                                <a target="_blank" href="https://www.youtube.com/channel/UC24UgtoWm8YwJGMnNBZVdsg">
                                     <img src="assets/img/icon-youtube.png">
                                 </a>
-                                <a href="">
+                                <a target="_blank" href="https://twitter.com/Minutrade">
                                     <img src="assets/img/icon-twitter.png">
                                 </a>
-                                <a href="">
+                                <a target="_blank" href="https://www.facebook.com/minutrade/">
                                     <img src="assets/img/icon-facebook.png">
                                 </a>
-                                <a href="">
+                                <a target="_blank" href="https://www.instagram.com/minutrade/">
                                     <img src="assets/img/icon-instagram.png">
                                 </a>
-                                <a href="">
+                                <a target="_blank" href="https://www.linkedin.com/company/minutrade/">
                                     <img src="assets/img/icon-linkedin.png">
                                 </a>
                             </div>
                         </p>
+                    </div>                    
+                    <div class="footer__column">
+                        <p>
+                            Sede: Av. Presidente Juscelino Kubitsheck, 1700 – 8 andar – 
+                        </p>
+                        <p>
+                            Vila Olímpia – São Paulo (SP)
+                        </p>
+                        <p>
+                            Filial: Av. Raja Gabaglia, 1781 – 9 andar – Conj. Santa Maria 
+                        </p>
+                        <p>
+                            Belo Horizonte (MG)
+                        </p>
+                        <p>
+                            Brasilia - ST. Bancário Norte - Quadra 1 - Bloco F
+                        </p>
+                        <p>
+                            17 Andar - Sala 1737 - Asa Norte - DF - CEP 70040-908 
+                        </p>
                     </div>
                     <div class="footer__column">
-                        <h4>Lorem ipsum</h4>
-                        <ul>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <p>+55 11 3044-5555</p>
-                        <p>atendimento@minutrade.com</p>
-                        <p>Sede: Av. Presidente Juscelino Kubitsheck, 1700 – 8 andar – </p>
-                        <p>Vila Olímpia – São Paulo (SP)</p>
-                        <p>Filial: Av. Raja Gabaglia, 1781 – 9 andar – Conj. Santa Maria </p>
-                        <p>Belo Horizonte (MG)</p>
+                        <p>
+                            +55 11 3044-5555
+                        </p>
+                        <p>
+                            atendimento@minutrade.com
+                        </p>
                     </div>
                 </div>
                 <div class="footer__bottom">
                     <p>
-                        © 2019 Direitos Reservados 
+                        © 2019 Direitos Reservados - Termos de Uso - Política de Privacidade
                     </p>
                 </div>
             </div>

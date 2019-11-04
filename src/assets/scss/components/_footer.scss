@@ -27,10 +27,7 @@
       }
       
       .footer__column:nth-child(2) {
-        width: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
       }
       .footer__column:nth-child(3) {
         padding-right: 20px;
@@ -50,6 +47,11 @@
         }
         .icons {
           
+          a {
+            text-align: left;
+            width: 30px;
+            display: inline-block;
+          }
         }
         h4 {
           margin-bottom: 1.5rem;
@@ -102,11 +104,6 @@
         }
         
         .footer__column:nth-child(2) {
-          width: 200px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          
           h4 {
             margin-top: -35px;
           } 

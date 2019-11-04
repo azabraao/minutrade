@@ -44,7 +44,7 @@
       }
     }
     .nuvem-recompensas__bottom:hover {
-
+      
       .nuvem-recompensas__bottom-icon {
         transform: translateY(-10px);
         transition: transform .5s;
@@ -54,7 +54,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      max-width: 400px;
+      max-width: 220px;
       margin: 0 auto;
       
       .nuvem-recompensas__bottom-icon {
@@ -66,8 +66,9 @@
       .nuvem-recompensas__bottom-text {
         font-family: $font-secondary;
         color: $white;
-        line-height: 30px;
-        font-size: $content-normal;  
+        font-size: $content-normal;
+        line-height: 20px;
+        font-weight: bold;  
       }
     }
   } 

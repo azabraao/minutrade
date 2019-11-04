@@ -1,0 +1,67 @@
+.xewards {
+  padding: 40px 0;
+  
+  .xewards__inner {
+    text-align: center;
+    
+    .xewards__logo {
+      img  {
+        width: 200px;
+      }    
+      margin-bottom: 1rem;
+    } 
+    .xewards__content {
+      h2 {
+        font-weight: bold;
+        font-size: $title-3;
+        font-family: $font-primary;
+        color: $primary-dark;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-family: $font-secondary;
+        margin-bottom: 1rem;
+        color: $grey;
+        font-weight: bold;
+      }
+    }
+    .xewards__cta {
+      
+      .button {
+        display: inline-block;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .xewards {
+    padding: 100px 0;
+    
+    .xewards__inner {
+      
+      .xewards__logo {
+        margin-bottom: 2rem;
+      } 
+
+      .xewards__content {
+        h2 {
+          max-width: 800px;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+        }
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+      .xewards__cta {
+        
+        .button {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

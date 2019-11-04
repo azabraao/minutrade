@@ -107,10 +107,11 @@
         width: 50%;
         height: 100%;
         right: 100%;
-        background-image: url(../img/homem-com-celular-minutrade.png);
+        background-image: url(../img/mulher-com-celular-minutrade.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
+        bottom: -60px;
       }
       
       .recompensa__items:after {
@@ -151,11 +152,12 @@
         content: '';
         width: 380px;
         height: 460px;
-        right: 77%;
-        background-image: url(../img/homem-com-celular-minutrade.png);
-        background-size: 100%;
+        right: 82%;
+        background-image: url(../img/mulher-com-celular-minutrade.png);
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
+        bottom: auto;
       }
       
       .recompensa__items {

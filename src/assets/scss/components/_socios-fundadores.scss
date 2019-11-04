@@ -1,7 +1,7 @@
 .socios-fundadores {
   padding: 5rem 0;
   transform: skew(0deg, -10deg);
-
+  
   .socios-fundadores__inner {
     transform: skew(0deg, 10deg);
     
@@ -29,7 +29,11 @@
     
     .socios-fundadores__list {
       position: relative;
-
+      
+      .socios-fundadores__list-items {
+        
+      }
+      
       .socios-slide__arrows {
         position: absolute;
         bottom: 0;
@@ -40,7 +44,7 @@
         font-size: 30px;
         z-index: 1;
         cursor: pointer;
-
+        
         .socios-slide__arrow {
           font-weight: bold;
           font-family: $font-primary;
@@ -52,7 +56,7 @@
         display: flex;
         align-items: center;
         height: 400px;
-
+        
         .socios-fundadores__photo {
           
         }
@@ -83,7 +87,7 @@
           background-size: contain;
           background-repeat: no-repeat;
         }
-
+        
         .socios-fundadores__box {
           text-align: center;
           position: relative;
@@ -93,7 +97,7 @@
           background: #fff;
           font-family: $font-secondary;
           color: $primary;
-
+          
           .socios-fundadores__box-text {
             margin-bottom: 1rem;
           }
@@ -116,6 +120,18 @@
 
 @media only screen and(min-width: $mobile-up) {
   .socios-fundadores {
-    padding: 8rem 0;
+    padding: 8rem 0 0rem 0;
+    
+    .socios-fundadores__inner {
+      .socios-fundadores__list {
+        .socios-fundadores__list-items {
+          display: flex; 
+          
+          .socios-fundadores__item {
+            margin: 1rem;
+          }
+        }
+      }  
+    }
   }
 }
