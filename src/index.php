@@ -334,7 +334,7 @@
                         </div>
                         <div class="socios-fundadores__item">
                             <div class="socios-fundadores__photo">
-                                <img src="assets/img/vp-oswaldo-oggiam.png">
+                                <img src="assets/img/marcelo.png">
                             </div>
                             <div class="socios-fundadores__box">
                                 <div class="socios-fundadores__box-text">                                    
