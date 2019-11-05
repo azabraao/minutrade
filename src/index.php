@@ -228,7 +228,7 @@
         <div class="xewards__inner">
             <div class="container">
                 <div class="xewards__logo">
-                    <img src="assets/img/fixture/logotipo-xewards.png" alt="Logotipo Xewards">
+                    <img src="assets/img/logotipo-xewards.png" alt="Logotipo Xewards">
                 </div>
                 <div class="xewards__content">
                     <h2>
